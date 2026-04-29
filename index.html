@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gadtech - Aesthetic Unbound</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="#">Gadtech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="d-flex align-items-center gap-3">
+          <div class="search-box d-none d-lg-block">
+            <input type="text" placeholder="Search here...">
+            <i class="bi bi-search"></i>
+          </div>
+<a href="javascript:void(0)" 
+   class="nav-icon" 
+   data-bs-toggle="modal" 
+   data-bs-target="#loginModal">
+  <i class="bi bi-person"></i>
+</a>
+  </a>
+          <a href="#" class="nav-icon"><i class="bi bi-bag"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+<div class="modal fade" id="loginModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-4">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <form>
+          <input type="email" class="form-control mb-3" placeholder="Email">
+          <input type="password" class="form-control mb-3" placeholder="Password">
+          <button class="btn btn-primary w-100">Login</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <span class="badge-new">NEW ARRIVAL</span>
+          <h1 class="hero-title">AESTHETIC<br><span class="text-blue">UNBOUND</span></h1>
+          <p class="hero-desc">Teknologi modern dengan desain elegan untuk pengalaman tanpa batas.</p>
+          <div class="d-flex gap-3 align-items-center mt-4">
+            <a href="#products">
+            <button class="btn-shop" >Shop Now <i class="bi bi-arrow-right"></i></button>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center position-relative" data-aos="fade-left" data-aos-delay="200">
+          <img src="headphone.png" alt="Headphone" class="hero-img floating">
+          <div class="quote-box">
+            <i class="bi bi-quote"></i>
+            <p>Perfect blend of cutting-edge technology and craftsmanship.</p>
+          </div>
+          <div class="social-hero">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features py-5" id="features">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+          <div class="feature-card">
+            <div class="icon-box"><i class="bi bi-shield-check"></i></div>
+            <h6>Premium Quality</h6>
+            <p>Material terbaik untuk produk berkualitas tinggi.</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-card">
+            <div class="icon-box"><i class="bi bi-lightning-charge"></i></div>
+            <h6>High Performance</h6>
+            <p>Performa maksimal untuk aktivitas tanpa batas.</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-card">
+            <div class="icon-box"><i class="bi bi-headset"></i></div>
+            <h6>1 Year Warranty</h6>
+            <p>Garansi resmi selama 1 tahun penuh.</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-card">
+            <div class="icon-box"><i class="bi bi-truck"></i></div>
+            <h6>Fast Delivery</h6>
+            <p>Pengiriman cepat dan aman ke seluruh dunia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products py-5" id="products">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div data-aos="fade-right">
+          <p class="section-subtitle">OUR PRODUCTS</p>
+          <h2 class="section-title">Best picks for you</h2>
+        </div>
+          <button class="btn-learn">View all products <i class="bi bi-arrow-right"></i></button>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="0">
+          <div class="product-card">
+            <div class="product-img-box">
+              <img src="img/earbuds.jpg" alt="Snopex Air Pro">
+            </div>
+            <h5>Gadtech Air Pro</h5>
+            <p>True Wireless Earbuds</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="price">Rp 799.000</span>
+              <button class="btn-cart"><i class="bi bi-bag"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="product-card">
+            <div class="product-img-box">
+              <img src="img/w.jpg" alt="Snopex Watch X">
+            </div>
+            <h5>Gadtech Watch X</h5>
+            <p>Smartwatch</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="price">Rp 1.299.000</span>
+              <button class="btn-cart"><i class="bi bi-bag"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+          <div class="product-card">
+            <div class="product-img-box">
+              <img src="img/smartphone.jpg" alt="Snopex Phone 13">
+            </div>
+            <h5>Snopex Phone 13</h5>
+            <p>Smartphone</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="price">Rp 7.999.000</span>
+              <button class="btn-cart"><i class="bi bi-bag"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+          <div class="product-card">
+            <div class="product-img-box">
+              <img src="img/laptop.jpg" alt="Snopex Book Lite">
+            </div>
+            <h5>Gadtech Book Lite</h5>
+            <p>Laptop</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="price">Rp 9.499.000</span>
+              <button class="btn-cart"><i class="bi bi-bag"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about py-5" id="about">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6" data-aos="fade-right">
+          <p class="section-subtitle">ABOUT GADTECH</p>
+          <h2 class="section-title">More than gadgets,<br>it's a lifestyle.</h2>
+          <p class="about-desc">Gadtech hadir untuk memberikan lebih dari sekadar produk. Kami menggabungkan desain elegan, teknologi mutakhir, dan inovasi untuk menemani setiap momen hidupmu.</p>
+          <button class="btn-learn">Learn More <i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800" alt="About" class="img-fluid rounded-4">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials py-5">
+    <div class="container">
+      <p class="section-subtitle text-center" data-aos="fade-up">TESTIMONIALS</p>
+      <h2 class="section-title text-center mb-5" data-aos="fade-up">What our customers say</h2>
+      <div class="row g-4">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="testi-card">
+            <div class="d-flex align-items-center mb-3">
+              <img src="https://i.pravatar.cc/50?img=1" class="rounded-circle me-3" alt="User">
+              <div>
+                <h6 class="mb-0">pirda</h6>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+            <p>Kualitas produk gadtech benar-benar premium! Desainnya elegan dan performanya luar biasa.</p>
+            <i class="bi bi-quote quote-icon"></i>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="testi-card">
+            <div class="d-flex align-items-center mb-3">
+              <img src="https://i.pravatar.cc/50?img=5" class="rounded-circle me-3" alt="User">
+              <div>
+                <h6 class="mb-0">Tiaratir</h6>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+            <p>Worth it dengan harga yang ditawarkan! Produk Gadtech selalu jadi pilihan utama saya.</p>
+            <i class="bi bi-quote quote-icon"></i>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="testi-card">
+            <div class="d-flex align-items-center mb-3">
+              <img src="https://i.pravatar.cc/50?img=3" class="rounded-circle me-3" alt="User">
+              <div>
+                <h6 class="mb-0">Andi</h6>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+            <p>Pengiriman cepat, packaging aman, dan produknya 100% original. Sangat rekomendasi!</p>
+            <i class="bi bi-quote quote-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer pt-5" id="contact">
+    <div class="container">
+      <div class="row g-4 pb-4">
+        <div class="col-lg-3">
+          <h4 class="fw-bold mb-3">Gadtech</h4>
+          <p>Gadtech adalah brand gadget & tech yang menghadirkan produk inovatif dengan desain modern untuk masa depan yang lebih baik.</p>
+          <div class="social-footer">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="fw-bold mb-3">Shop</h6>
+          <ul class="footer-links">
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="fw-bold mb-3">Support</h6>
+          <ul class="footer-links">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Warranty</a></li>
+            <li><a href="#">Shipping & Delivery</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-5">
+          <h6 class="fw-bold mb-3">Contact Us</h6>
+          <ul class="footer-links">
+            <li><i class="bi bi-telephone me-2"></i>+62 812-3456-7890</li>
+            <li><i class="bi bi-envelope me-2"></i>@FanesyaGadtech.com</li>
+            <li><i class="bi bi-geo-alt me-2"></i>Jl. Teknologi No. 88 Jakarta, Indonesia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom text-center py-3">
+        <p class="mb-0">© 2025 Gadtech. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS Animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
